@@ -12,5 +12,3 @@ The cloud layer, hosted on AWS, serves as the backbone of data storage and proce
 
 **Coding : **
 The code is written in Arduino IDE. As said in the architecture, the arduino will have a code to collect telementry data from the sensor modules, which will be transmitted to the NodeMCU and the NodeMCU will have a code to connect with the AWS cloud platform using MQtt. Also, we are using ardunio Mega in proteus we have a separate code for the proteus simulation.
-
-Finally, the Django Website will have a set of codes which you can see under the Django Code folder.
